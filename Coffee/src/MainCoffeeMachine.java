@@ -10,7 +10,7 @@ public class MainCoffeeMachine {
         int coffee = 120;
         int money = 550;
 
-        boolean hi = true;
+        boolean is = true;
         do {
             System.out.print("Write action (buy, fill, take, remaining, exit)");
             String str = scanner.next();
@@ -116,12 +116,12 @@ public class MainCoffeeMachine {
                     break;
 
                 case "exit":
-                    hi=false;
+                    is=false;
                     break;
 
             }
 
 
-        }while(hi);
+        }while(is);
     }
 }
